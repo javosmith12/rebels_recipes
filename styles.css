@@ -33,7 +33,7 @@ h1 {
     margin: 10px;
 }
 
-.title {
+.desc-title {
     font-size: 24px;
     text-decoration: underline;
     color: rgb(223, 24, 24);
@@ -41,7 +41,7 @@ h1 {
 }
 
 .desc {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -57,5 +57,23 @@ h1 {
     padding: 15px;
     border: 2px rgb(221, 221, 221) solid;
     border-radius: 10px;
+}
+
+.unord-list {
+    list-style: none;
+}
+
+.unord-list li{
+    font-size: 18px;
+    border: 2px solid rgb(154, 233, 202);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+}
+
+.anch {
+    font-size: 18px;
+    color: rgb(223, 24, 24);
+    font-weight: bold;
 }
 
